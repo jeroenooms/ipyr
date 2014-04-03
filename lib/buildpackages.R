@@ -2,7 +2,7 @@
 assign(".lib.loc", c("/usr/lib/R/library"), envir=environment(.libPaths));
 
 #this dir contains the source packages
-sourcedir <- file.path(getwd(), "ipyr-lib")
+sourcedir <- file.path(getwd(), "lib")
 destdir <- file.path(sourcedir, "build");
 stopifnot(dir.create(destdir))
 
@@ -11,4 +11,4 @@ library(tools);
 write_PACKAGES(sourcedir)
 
 #Dependencies are automatically installed as well.
-install.packages("ipyr", type="source", lib=destdir, contriburl=paste0("file://", sourcedir));
+install.packages(c("RAppArmor", "IRkernel"), type="source", lib=destdir, contriburl=paste0("file://", sourcedir));
