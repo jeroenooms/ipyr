@@ -1,0 +1,12 @@
+Source: ipyr 
+Section: gnu-r
+Priority: optional
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+Build-Depends: r-base-dev, xvfb, xauth, xfonts-base, debhelper (>> 4.1.0), libzmq3-dev, ipython-notebook, python-pip
+Standards-Version: 3.9.4
+
+Package: ipyr
+Architecture: any
+Depends: r-base (>= 3.0), ipython-notebook (>= 1.2.1), python-pip
+Description: R kernel for ipython
+

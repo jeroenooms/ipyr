@@ -1,0 +1,6 @@
+ipython-r-base (0.0.0-trusty0) trusty; urgency=low
+
+  * Debian package with ipython R kernel
+
+ -- Jeroen Ooms <jeroen@opencpu.org>  Wed, 12 Mar 2014 18:00:00 -0800
+ 

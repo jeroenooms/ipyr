@@ -1,0 +1,2 @@
+opencpu-lib/build/* /usr/lib/ipyr/library/
+scripts/* /usr/lib/ipyr/scripts/
