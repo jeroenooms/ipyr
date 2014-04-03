@@ -3,7 +3,7 @@
 set +e
 
 case "$1" in
-  remove | pure | abort-install)
+  remove | purge | abort-install)
     :
       rm -f /usr/bin/ipyr
     ;;
