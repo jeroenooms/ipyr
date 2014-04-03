@@ -13,7 +13,7 @@ Install
 Run
 ---
 
-    /usr/bin/ipyr
+    ipyr
 
 
 Configure
