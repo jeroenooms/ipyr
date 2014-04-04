@@ -1,7 +1,7 @@
 Debian package for ipyr
 =======================
 
-Debian package to install the [ipython R kernel](https://github.com/takluyver/IR_kernel).
+Debian package to install the [ipython R kernel](https://github.com/takluyver/IR_kernel). Works on Ubuntu 13.10 (Saucy) and up.
 
 Install
 -------
