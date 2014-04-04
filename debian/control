@@ -7,6 +7,6 @@ Standards-Version: 3.9.4
 
 Package: ipyr
 Architecture: any
-Depends: r-base (>= 3.0), ipython-notebook (>= 1.2.1), python-pip, apparmor-utils
+Depends: r-base (>= 3.0), libzmq3, ipython-notebook (>= 1.2.1), python-pip, apparmor-utils
 Description: R kernel for ipython
 
