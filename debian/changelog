@@ -1,4 +1,4 @@
-ipyr (0.0.0-trusty5) trusty; urgency=low
+ipyr (0.1-trusty0) trusty; urgency=low
 
   * Debian package with ipython R kernel
 
